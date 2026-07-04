@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ИнжСтройТелеком — инженерные системы, безопасность, связь</title>
+<meta name="description" content="ООО «ИнжСтройТелеком» / ИП Кобозев А.В. — 20 лет опыта: проектирование, монтаж, пусконаладка, ремонт и техническое обслуживание систем пожарной и технической безопасности, связи и коммуникаций. Лицензия МЧС России №77-Б/07958.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚙️</text></svg>">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Preloader -->
+<div class="preloader" id="preloader"><div class="loader-ring"></div></div>
+
+<!-- Header -->
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a href="#home" class="logo">
+      <span class="logo__icon">
+        <svg viewBox="0 0 48 48" width="34" height="34" fill="none"><path d="M24 4 L44 14 V30 C44 38 35 44 24 44 C13 44 4 38 4 30 V14 Z" stroke="currentColor" stroke-width="3" fill="rgba(255,153,0,.12)"/><path d="M16 24 L21 29 L32 18" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </span>
+      <span class="logo__text">Инж<span>Строй</span>Телеком</span>
+    </a>
+
+    <nav class="nav" id="nav">
+      <ul class="nav__list">
+        <li><a href="#home" class="nav__link active-link">Главная</a></li>
+        <li><a href="#services" class="nav__link">Услуги</a></li>
+        <li><a href="#about" class="nav__link">О компании</a></li>
+        <li><a href="#process" class="nav__link">Как мы работаем</a></li>
+        <li><a href="#projects" class="nav__link">Проекты</a></li>
+        <li><a href="#contacts" class="nav__link">Контакты</a></li>
+      </ul>
+    </nav>
+
+    <div class="header__actions">
+      <a href="tel:+79152281358" class="header__phone">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        +7 (915) 228-13-58
+      </a>
+      <a href="#contacts" class="btn btn--sm btn--primary">Заказать звонок</a>
+    </div>
+
+    <button class="burger" id="burger" aria-label="Меню">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="hero" id="home">
+  <div class="hero__bg"></div>
+  <div class="hero__grid"></div>
+  <div class="container hero__inner">
+    <p class="hero__eyebrow reveal">Группа компаний «ИнжСтройТелеком»</p>
+    <h1 class="hero__title reveal">Проектирование. Монтаж.<br>Пусконаладка и техобслуживание.</h1>
+    <p class="hero__subtitle reveal">20 лет опыта в системах пожарной и технической безопасности, связи и коммуникаций, электрике, вентиляции и автоматизации инженерных систем.</p>
+    <div class="hero__actions reveal">
+      <a href="#contacts" class="btn btn--primary btn--lg">Получить расчёт стоимости</a>
+      <a href="#services" class="btn btn--ghost btn--lg">Наши услуги</a>
+    </div>
+    <div class="hero__stats reveal">
+      <div class="hero__stat">
+        <span class="counter" data-target="20">0</span><span class="hero__stat-suffix">+</span>
+        <p>лет опыта в отрасли</p>
+      </div>
+      <div class="hero__stat">
+        <span class="counter" data-target="70">0</span><span class="hero__stat-suffix">+</span>
+        <p>реализованных проектов</p>
+      </div>
+      <div class="hero__stat">
+        <span class="counter" data-target="2000">0</span><span class="hero__stat-suffix">+</span>
+        <p>светильников модернизировано</p>
+      </div>
+      <div class="hero__stat">
+        <span class="counter" data-target="240">0</span>
+        <p>лифтов и эскалаторов на диспетчеризации</p>
+      </div>
+    </div>
+  </div>
+  <a href="#services" class="scroll-cue" aria-label="Прокрутить вниз"><span></span></a>
+</section>
+
+<!-- Clients strip -->
+<section class="strip">
+  <div class="container strip__inner">
+    <p class="strip__label">Среди наших объектов и партнёров:</p>
+    <div class="strip__items">
+      <span>ФГБУ «УТЦ Новогорск»</span>
+      <span>МЦК / АО «РЖД»</span>
+      <span>Академия Гражданской защиты МЧС России</span>
+      <span>Департамент здравоохранения г. Москвы</span>
+      <span>Аэропорт «Домодедово»</span>
+      <span>ЭР-Телеком Холдинг</span>
+    </div>
+  </div>
+</section>
+
+<!-- Services -->
+<section class="services section" id="services">
+  <div class="container">
+    <p class="section__eyebrow reveal">Что мы делаем</p>
+    <h2 class="section__title reveal">Инженерные системы полного цикла</h2>
+    <p class="section__subtitle reveal">Проектирование, монтаж, пуско-наладка, ремонт и техническое обслуживание инженерных систем и систем безопасности.</p>
+
+    <div class="services__grid">
+      <article class="card service-card reveal">
+        <div class="service-card__num">01</div>
+        <div class="service-card__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
+        </div>
+        <h3>Пожарная безопасность</h3>
+        <p>Проектирование, монтаж и ПНР систем пожарной безопасности с оформлением исполнительной документации.</p>
+        <ul class="service-card__list">
+          <li>Автоматическая пожарная сигнализация (АПС)</li>
+          <li>Автоматика систем пожаротушения (АСПТ)</li>
+          <li>Дымоудаление (АСДУ), оповещение и эвакуация (СОУЭ)</li>
+        </ul>
+      </article>
+
+      <article class="card service-card reveal">
+        <div class="service-card__num">02</div>
+        <div class="service-card__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M19 11H5a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7a2 2 0 0 0-2-2Z"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+        </div>
+        <h3>Техническая безопасность</h3>
+        <p>Комплексные системы охраны и контроля доступа для зданий, территорий и режимных объектов.</p>
+        <ul class="service-card__list">
+          <li>Охранная сигнализация (ОС)</li>
+          <li>Охранное телевидение (СОТ)</li>
+          <li>Контроль и управление доступом (СКУД)</li>
+        </ul>
+      </article>
+
+      <article class="card service-card reveal">
+        <div class="service-card__num">03</div>
+        <div class="service-card__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M5 13a10 10 0 0 1 14 0"/><path d="M8.5 16.5a5 5 0 0 1 7 0"/><path d="M12 20h.01"/><path d="M2 8.82a15 15 0 0 1 20 0"/></svg>
+        </div>
+        <h3>Связь и коммуникации</h3>
+        <p>Построение сетей связи и передачи данных — от кабельной инфраструктуры до беспроводного доступа.</p>
+        <ul class="service-card__list">
+          <li>Структурированные кабельные системы (СКС), ЛВС</li>
+          <li>Широкополосный беспроводной доступ (СШПД)</li>
+          <li>Телефония, эфирное и кабельное ТВ (СКТ)</li>
+        </ul>
+      </article>
+
+      <article class="card service-card reveal">
+        <div class="service-card__num">04</div>
+        <div class="service-card__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M13 2 3 14h8l-1 8 10-12h-8z"/></svg>
+        </div>
+        <h3>Электрика, вентиляция и кондиционирование</h3>
+        <p>Электрическое освещение, силовое оборудование и молниезащита, системы ОВиК любой сложности.</p>
+        <ul class="service-card__list">
+          <li>Освещение, силовое оборудование, молниезащита (ЭОМ)</li>
+          <li>Вентиляция и кондиционирование (ОВ)</li>
+          <li>Отопление и водоснабжение</li>
+        </ul>
+      </article>
+
+      <article class="card service-card reveal">
+        <div class="service-card__num">05</div>
+        <div class="service-card__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="4" width="18" height="12" rx="1"/><path d="M8 20h8M12 16v4"/><path d="m8 10 2.5 2.5L16 7"/></svg>
+        </div>
+        <h3>Диспетчеризация и автоматизация</h3>
+        <p>Комплексы программно-аппаратных средств (SCADA) для мониторинга и управления инженерным оборудованием в реальном времени.</p>
+        <ul class="service-card__list">
+          <li>Диспетчеризация инженерных систем зданий</li>
+          <li>Автоматизированные системы управления (АСУД)</li>
+          <li>Интеграция лифтов, эскалаторов и травалаторов</li>
+        </ul>
+      </article>
+
+      <article class="card service-card reveal">
+        <div class="service-card__num">06</div>
+        <div class="service-card__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M14.7 6.3a1 1 0 0 0 1.4 0l1.6-1.6a1 1 0 0 0 0-1.4l-1.6-1.6a1 1 0 0 0-1.4 0L13.1 3.3a1 1 0 0 0 0 1.4Z"/><path d="m21 21-6-6M15.5 8.5 3 21M8.5 15.5 3 21"/><path d="m18 3 3 3-9 9-3-3z"/></svg>
+        </div>
+        <h3>Ремонт и техническое обслуживание</h3>
+        <p>Регламентное и аварийное обслуживание инженерных систем и систем безопасности после ввода в эксплуатацию.</p>
+        <ul class="service-card__list">
+          <li>Плановое и аварийное ТО оборудования</li>
+          <li>Ремонтно-восстановительные работы</li>
+          <li>Гарантийное сопровождение объектов</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- About -->
+<section class="about section" id="about">
+  <div class="container about__grid">
+    <div class="about__media reveal">
+      <div class="about__media-frame">
+        <svg viewBox="0 0 400 460" class="about__illustration">
+          <rect x="0" y="0" width="400" height="460" rx="18" fill="url(#g1)"/>
+          <defs>
+            <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#0e1c33"/>
+              <stop offset="1" stop-color="#173463"/>
+            </linearGradient>
+          </defs>
+          <g stroke="#ff9900" stroke-width="2.2" fill="none" opacity=".9">
+            <rect x="60" y="260" width="60" height="140"/>
+            <rect x="140" y="200" width="60" height="200"/>
+            <rect x="220" y="150" width="60" height="250"/>
+            <rect x="300" y="230" width="40" height="170"/>
+          </g>
+          <g stroke="#ffffff" stroke-width="1.4" opacity=".55">
+            <path d="M60 260 h60 M140 220 h60 M220 190 h60 M220 230 h60 M220 270 h60"/>
+          </g>
+          <circle cx="300" cy="90" r="46" fill="none" stroke="#ff9900" stroke-width="3"/>
+          <path d="M300 62v28l20 16" stroke="#ff9900" stroke-width="3" fill="none" stroke-linecap="round"/>
+          <g stroke="#fff" stroke-width="2" opacity=".5">
+            <path d="M40 400h320"/>
+          </g>
+        </svg>
+        <div class="badge-float">
+          <strong>МЧС России</strong>
+          <span>Лицензия №77-Б/07958 от 06.08.2020</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="about__content">
+      <p class="section__eyebrow reveal">О компании</p>
+      <h2 class="section__title reveal">20 лет опыта в инженерных системах и безопасности объектов</h2>
+      <p class="reveal">Группа компаний «ИнжСтройТелеком» (ООО «ИнжСтройТелеком», ИП Кобозев А.В.) работает в сфере инженерных систем, систем технической безопасности, связи и коммуникаций. За время работы реализовано более 70 проектов — от объектов МЧС России и Минспорта до аэропортов и жилых комплексов.</p>
+
+      <div class="about__points">
+        <div class="about__point reveal">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>
+          <div><strong>Лицензия МЧС России</strong><p>Действующая лицензия №77-Б/07958 от 06.08.2020 на работы в области пожарной безопасности.</p></div>
+        </div>
+        <div class="about__point reveal">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>
+          <div><strong>Минимум субподряда</strong><p>Берём любой проект «с нуля» и реализуем его «под ключ» силами собственных специалистов.</p></div>
+        </div>
+        <div class="about__point reveal">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>
+          <div><strong>Допуск к режимным объектам</strong><p>Сотрудники проходят спецпроверки МВД и ФСБ для работы на объектах с повышенными требованиями безопасности.</p></div>
+        </div>
+      </div>
+
+      <a href="#contacts" class="btn btn--primary">Обсудить проект</a>
+    </div>
+  </div>
+</section>
+
+<!-- Process -->
+<section class="process section" id="process">
+  <div class="container">
+    <p class="section__eyebrow reveal">Порядок работы</p>
+    <h2 class="section__title reveal">Как мы работаем</h2>
+    <p class="section__subtitle reveal">Прозрачный процесс на каждом этапе — вы всегда знаете, что происходит с проектом.</p>
+
+    <div class="process__steps">
+      <div class="process__step reveal">
+        <div class="process__index">1</div>
+        <h3>Заявка и выезд на объект</h3>
+        <p>Собираем исходные данные, выезжаем на объект, определяем объём и сроки работ.</p>
+      </div>
+      <div class="process__step reveal">
+        <div class="process__index">2</div>
+        <h3>Проектирование</h3>
+        <p>Разрабатываем проектную и рабочую документацию, согласовываем с заказчиком и надзорными органами.</p>
+      </div>
+      <div class="process__step reveal">
+        <div class="process__index">3</div>
+        <h3>Монтаж</h3>
+        <p>Выполняем монтажные работы по графику с еженедельными отчётами и контролем качества.</p>
+      </div>
+      <div class="process__step reveal">
+        <div class="process__index">4</div>
+        <h3>Пусконаладка</h3>
+        <p>Проводим индивидуальные испытания и комплексное опробование систем, выводим на проектные режимы.</p>
+      </div>
+      <div class="process__step reveal">
+        <div class="process__index">5</div>
+        <h3>Сдача, ремонт и ТО</h3>
+        <p>Передаём исполнительную документацию, сдаём объект и берём на ремонт и техническое обслуживание.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Advantages -->
+<section class="advantages section">
+  <div class="container">
+    <p class="section__eyebrow reveal">Преимущества</p>
+    <h2 class="section__title reveal">Почему выбирают нас</h2>
+
+    <div class="advantages__grid">
+      <div class="advantage reveal">
+        <div class="advantage__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 22s8-4 8-11V5l-8-3-8 3v6c0 7 8 11 8 11Z"/></svg></div>
+        <h3>Лицензия МЧС России</h3>
+        <p>Действующая лицензия №77-Б/07958 от 06.08.2020 на работы в области пожарной безопасности.</p>
+      </div>
+      <div class="advantage reveal">
+        <div class="advantage__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div>
+        <h3>20 лет опыта</h3>
+        <p>Работаем в сфере инженерных систем, технической безопасности, связи и коммуникаций.</p>
+      </div>
+      <div class="advantage reveal">
+        <div class="advantage__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 3v18h18"/><path d="m7 14 4-4 3 3 5-6"/></svg></div>
+        <h3>Минимум субподряда</h3>
+        <p>Реализуем проекты «под ключ» силами собственных специалистов, от идеи до сдачи объекта.</p>
+      </div>
+      <div class="advantage reveal">
+        <div class="advantage__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+        <h3>Опыт с гособъектами</h3>
+        <p>Работали с объектами МЧС России, Департамента здравоохранения Москвы, АО «РЖД», аэропортов.</p>
+      </div>
+      <div class="advantage reveal">
+        <div class="advantage__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4 12 14.01l-3-3"/></svg></div>
+        <h3>Допуск к режимным объектам</h3>
+        <p>Сотрудники проходят спецпроверки МВД и ФСБ для работы на объектах повышенной безопасности.</p>
+      </div>
+      <div class="advantage reveal">
+        <div class="advantage__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 2 2 7l10 5 10-5-10-5Z"/><path d="M2 17l10 5 10-5M2 12l10 5 10-5"/></svg></div>
+        <h3>Регулярная аттестация</h3>
+        <p>Специалисты ежегодно подтверждают в Ростехнадзоре квалификацию по электробезопасности.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Projects -->
+<section class="projects section" id="projects">
+  <div class="container">
+    <p class="section__eyebrow reveal">Портфолио</p>
+    <h2 class="section__title reveal">Реализованные проекты</h2>
+    <p class="section__subtitle reveal">Более 70 проектов за время работы — от спортивных и государственных объектов до аэропортов и жилых комплексов.</p>
+
+    <div class="filters reveal" id="filters">
+      <button class="filter-btn active" data-filter="all">Все</button>
+      <button class="filter-btn" data-filter="sport">Спорт</button>
+      <button class="filter-btn" data-filter="transport">Транспорт</button>
+      <button class="filter-btn" data-filter="mchs">МЧС и безопасность</button>
+      <button class="filter-btn" data-filter="health">Здравоохранение</button>
+      <button class="filter-btn" data-filter="residential">Жилые комплексы</button>
+      <button class="filter-btn" data-filter="aviation">Авиация</button>
+    </div>
+
+    <div class="projects__grid" id="projectsGrid">
+      <div class="project-card reveal" data-cat="sport">
+        <div class="project-card__cover cover-1"></div>
+        <div class="project-card__body">
+          <span class="tag">Спорт</span>
+          <h3>ФГБУ «УТЦ «Новогорск»</h3>
+          <p>С 2008 года 15 лет вводили в эксплуатацию и обслуживали слаботочные системы, вентиляцию и кондиционирование в гостиницах, спортивных залах и на футбольных полях. В 2016–2018 гг. — обеспечение безопасности тренировочных полей сборной России при подготовке к ЧМ по футболу 2018 г. совместно с Минспортом РФ, ФИФА, ФСБ, МВД и Росгвардией.</p>
+        </div>
+      </div>
+      <div class="project-card reveal" data-cat="transport">
+        <div class="project-card__cover cover-2"></div>
+        <div class="project-card__body">
+          <span class="tag">Транспорт</span>
+          <h3>МЦК, станция «Зорге»</h3>
+          <p>В 2016 г. — монтаж и пуско-наладка двух ИТП, ЭОМ, ОВ, системы диспетчеризации инженерного оборудования (СУДИО), часофикации и радиофикации для Департамента строительства г. Москвы и АО «РЖД».</p>
+        </div>
+      </div>
+      <div class="project-card reveal" data-cat="mchs">
+        <div class="project-card__cover cover-3"></div>
+        <div class="project-card__body">
+          <span class="tag">МЧС и безопасность</span>
+          <h3>Академия Гражданской защиты МЧС России</h3>
+          <p>В 2010–2022 гг. — реконструкция и восстановление автоматической пожарной и охранной сигнализации, прокладка ВОЛС и создание транспортной сети, монтаж видеонаблюдения и СКУД территории и периметра Академии.</p>
+        </div>
+      </div>
+      <div class="project-card reveal" data-cat="health">
+        <div class="project-card__cover cover-4"></div>
+        <div class="project-card__body">
+          <span class="tag">Здравоохранение</span>
+          <h3>Объекты Департамента здравоохранения Москвы</h3>
+          <p>Строительно-монтажные и пуско-наладочные работы слаботочных систем в ГКБ им. В.В. Вересаева (ССК), диагностических центрах №5 и №3, городских поликлиниках №212 и №10.</p>
+        </div>
+      </div>
+      <div class="project-card reveal" data-cat="residential">
+        <div class="project-card__cover cover-5"></div>
+        <div class="project-card__body">
+          <span class="tag">Жилые комплексы</span>
+          <h3>ЖК «Лесобережный» и «MYPRIORITY Dubrovka»</h3>
+          <p>АПС, АСДУ, СОУЭ, СКС, СШПД, ОС, СОТ, системы связи и сигнализации для МГН, автоматизированная система управления и диспетчеризации (АСУД), охранно-защитная дератизационная система (ОЗДС).</p>
+        </div>
+      </div>
+      <div class="project-card reveal" data-cat="aviation">
+        <div class="project-card__cover cover-6"></div>
+        <div class="project-card__body">
+          <span class="tag">Авиация</span>
+          <h3>Аэропорт «Домодедово» (ДМЕ)</h3>
+          <p>С 2022 года совместно с АО «ЭР-Телеком Холдинг» — диспетчерский комплекс «Обь» на 240 лифтов, эскалаторов и траволаторов; замена более 2000 ламп уличного освещения (LoRaWAN) и диспетчеризация инженерных систем авиационно-технической базы.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA banner -->
+<section class="cta-banner">
+  <div class="container cta-banner__inner reveal">
+    <div>
+      <h2>Готовы обсудить ваш объект?</h2>
+      <p>Работаем «под ключ» уже 20 лет — от проектирования до сдачи в эксплуатацию. Лицензия МЧС России №77-Б/07958.</p>
+    </div>
+    <a href="#contacts" class="btn btn--primary btn--lg">Оставить заявку</a>
+  </div>
+</section>
+
+<!-- Contacts -->
+<section class="contacts section" id="contacts">
+  <div class="container contacts__grid">
+    <div class="contacts__info reveal">
+      <p class="section__eyebrow">Контакты</p>
+      <h2 class="section__title">Свяжитесь с нами</h2>
+      <p class="section__subtitle" style="margin-bottom:32px;">Ответим на вопросы по проектированию, монтажу и пуско-наладке инженерных систем.</p>
+
+      <div class="contact-item">
+        <div class="contact-item__icon"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+        <div><strong>Телефон</strong><a href="tel:+79152281358">+7 (915) 228-13-58</a></div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-item__icon"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z" opacity="0"/><path d="M22 6 12 13 2 6"/><path d="M2 6h20v12H2z"/></svg></div>
+        <div><strong>Email</strong><a href="mailto:russb2015@yandex.ru">russb2015@yandex.ru</a></div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-item__icon"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M6 21V10l6-5 6 5v11M9 21v-6h6v6"/></svg></div>
+        <div><strong>Организация</strong><span>ООО «ИнжСтройТелеком», ИП Кобозев А.В.</span></div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-item__icon"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-11V5l-8-3-8 3v6c0 7 8 11 8 11Z"/></svg></div>
+        <div><strong>Лицензия</strong><span>МЧС России №77-Б/07958 от 06.08.2020</span></div>
+      </div>
+    </div>
+
+    <form class="contact-form reveal" id="contactForm" novalidate>
+      <h3>Оставить заявку</h3>
+      <p class="contact-form__hint">Заполните форму — перезвоним в течение 30 минут в рабочее время.</p>
+
+      <div class="form-group">
+        <label for="name">Имя *</label>
+        <input type="text" id="name" name="name" placeholder="Как к вам обращаться">
+        <span class="error-msg"></span>
+      </div>
+
+      <div class="form-group">
+        <label for="phone">Телефон *</label>
+        <input type="tel" id="phone" name="phone" placeholder="+7 (___) ___-__-__">
+        <span class="error-msg"></span>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@company.ru">
+        <span class="error-msg"></span>
+      </div>
+
+      <div class="form-group">
+        <label for="service">Интересующая услуга</label>
+        <select id="service" name="service">
+          <option value="">Не выбрано</option>
+          <option value="fire">Пожарная безопасность</option>
+          <option value="security">Техническая безопасность</option>
+          <option value="communications">Связь и коммуникации</option>
+          <option value="electric">Электрика, ОВиК</option>
+          <option value="scada">Диспетчеризация (SCADA)</option>
+          <option value="service">Ремонт и техобслуживание</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="message">Сообщение</label>
+        <textarea id="message" name="message" rows="3" placeholder="Кратко опишите задачу"></textarea>
+      </div>
+
+      <label class="checkbox">
+        <input type="checkbox" id="agree" name="agree">
+        <span>Согласен на обработку персональных данных</span>
+        <span class="error-msg"></span>
+      </label>
+
+      <button type="submit" class="btn btn--primary btn--block">
+        <span class="btn__text">Отправить заявку</span>
+      </button>
+
+      <div class="form-success" id="formSuccess">
+        <svg viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></svg>
+        <p>Заявка отправлена! Мы свяжемся с вами в ближайшее время.</p>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__col">
+      <a href="#home" class="logo logo--footer">
+        <span class="logo__icon">
+          <svg viewBox="0 0 48 48" width="30" height="30" fill="none"><path d="M24 4 L44 14 V30 C44 38 35 44 24 44 C13 44 4 38 4 30 V14 Z" stroke="currentColor" stroke-width="3" fill="rgba(255,153,0,.12)"/><path d="M16 24 L21 29 L32 18" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+        <span class="logo__text">Инж<span>Строй</span>Телеком</span>
+      </a>
+      <p>Проектирование, монтаж, пуско-наладка, ремонт и техническое обслуживание инженерных систем, систем безопасности и связи.</p>
+    </div>
+    <div class="footer__col">
+      <h4>Услуги</h4>
+      <ul>
+        <li><a href="#services">Пожарная безопасность</a></li>
+        <li><a href="#services">Техническая безопасность</a></li>
+        <li><a href="#services">Связь и коммуникации</a></li>
+        <li><a href="#services">Электрика, ОВиК</a></li>
+        <li><a href="#services">Диспетчеризация (SCADA)</a></li>
+        <li><a href="#services">Ремонт и техобслуживание</a></li>
+      </ul>
+    </div>
+    <div class="footer__col">
+      <h4>Компания</h4>
+      <ul>
+        <li><a href="#about">О компании</a></li>
+        <li><a href="#process">Как мы работаем</a></li>
+        <li><a href="#projects">Проекты</a></li>
+        <li><a href="#contacts">Контакты</a></li>
+      </ul>
+    </div>
+    <div class="footer__col">
+      <h4>Контакты</h4>
+      <ul>
+        <li>+7 (915) 228-13-58</li>
+        <li>russb2015@yandex.ru</li>
+        <li>ООО «ИнжСтройТелеком», ИП Кобозев А.В.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <div class="container footer__bottom-inner">
+      <span>© <span id="year"></span> ИнжСтройТелеком. Все права защищены.</span>
+      <span>Лицензия МЧС России №77-Б/07958 от 06.08.2020</span>
+    </div>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" aria-label="Наверх">
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m18 15-6-6-6 6"/></svg>
+</button>
+
+<script src="js/script.js"></script>
+</body>
+</html>
