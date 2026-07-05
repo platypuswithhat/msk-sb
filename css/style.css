@@ -354,16 +354,18 @@ input, textarea, select { font-family: inherit; font-size: 1rem; }
   margin-top: 50px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px 40px;
+  gap: 26px;
+  align-items: stretch;
 }
-.advantage { display: flex; gap: 18px; align-items: flex-start; }
+.advantage { display: flex; flex-direction: column; }
 .advantage__icon {
   width: 52px; height: 52px; flex-shrink: 0; border-radius: 14px;
   background: var(--navy-800); color: var(--orange);
   display: flex; align-items: center; justify-content: center;
+  margin-bottom: 20px;
 }
 .advantage__icon svg { width: 24px; height: 24px; }
-.advantage h3 { font-size: 1.05rem; margin-bottom: 6px; }
+.advantage h3 { font-size: 1.05rem; margin-bottom: 8px; }
 .advantage p { font-size: .9rem; color: var(--gray-500); }
 
 /* ==========================================================================
